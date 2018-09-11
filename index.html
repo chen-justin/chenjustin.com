@@ -8,46 +8,58 @@
             <meta name="description" content="The website of Justin Chen">
             <meta name="author" content="Justin Chen">
             <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet"> 
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
             <link rel="stylesheet" href="stylesheet.css">
         </head>
         <body>
             <div class="container">
                 <nav class="navbar">
-                    <div class="home"><a href="#">&ltchenjustin&gt</a></div>
+                    <div class="home"><a href="#"><span style="color: #1976d2; font-weight: 600;">&lt</span>chenjustin<span style="color: #1976d2; font-weight: 600;">/&gt</span></a></div>
                     <div class="menu-container">
-                        <a href="#projects">projects</a>
-                        <a href="#contact">contact</a>
                         <a href="">resume</a>
                     </div>
                 </nav>
                 <div class="about">
                     <p class="content">I'm Justin Chen, a <span style="color: #1976d2; font-weight: 600;">software developer</span> and <span style="color: #1976d2; font-weight: bold;">student</span> at the University of Maryland, pursuing a major in Computer Science.</p>
                 </div>
-                <div class="projects">
+                <div id="projects" class="projects">
                     <h1>projects</h1>
                     <div class="project-container">
-                        <div class="project">
-                            <h1>gradu8</h1>
-                            <p>gradu8 was a project that I created with my colleagues at BitCamp 2017. It was intended to be a tool 
-                                for University of Maryland students to plan and create a 4 year schedule that would fulfill all of
-                                their major requirements and help them find an optimal path to graduation in 8 semesters.</p>
-                            <a href="">github_link_here</a>
+                        <div class="project-card">
+                                <h1>gradu8</h1>
+                            <div class="project-description">
+                                <p>gradu8 was a project that I created with my colleagues at BitCamp 2017. It was intended to be a tool 
+                                    for University of Maryland students to plan and create a 4 year schedule that would fulfill all of
+                                    their major requirements and help them find an optimal path to graduation in 8 semesters.</p>
+                                <a href="https://github.com/chen-justin/gradu8">https://github.com/chen-justin/gradu8</a>
+                            </div>
                         </div>
-                        <div class="project">
-                            <h1>js-8</h1>
-                            <p>JS-8 is my implementation of the Chip-8 interpreter in JavaScript. Currently Unfinished.</p>
-                            <a href="">github_link_here</a>
+                        <div class="project-card">
+                            <div class="project-description">
+                                <h1>js-8</h1>
+                                <p>JS-8 is my implementation of the Chip-8 interpreter in JavaScript. Currently Unfinished.</p>
+                                <a href="https://github.com/chen-justin/JS-8">https://github.com/chen-justin/JS-8</a>
+                            </div>
                         </div>
-                        
                     </div>
                 </div>
-                <div class="contact">
+                <div id="contact" class="contact">
                     <h1>contact</h1>
-                    <a href="">email here</a>
-                    <a href="">github_link_here</a>
-                    <a href="">linkedin_link_here</a>
+                    <div class="contact-container">
+                        <a href="mailto:me@chenjustin.com">
+                            <span class="fas fa-envelope fa-2x" style="vertical-align:-6px;"></span> 
+                            <span>&nbsp&nbspemail</span>
+                        </a>
+                        <a href="https://github.com/chen-justin" target="_blank">
+                            <span class="fab fa-github fa-2x" style="vertical-align:-6px;"></span> 
+                            <span>&nbsp&nbspgithub</span>
+                        </a>
+                        <a href="www.linkedin.com/in/chen-justin" target="_blank">
+                            <span class="fab fa-linkedin fa-2x" style="vertical-align:-6px;"></span> 
+                            <span>&nbsp&nbsplinkedin</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-
         </body>
 </html>

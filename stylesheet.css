@@ -26,16 +26,6 @@ a:hover{
     margin: 20px;
 }
 
-.wrapper {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-areas:
-        "nav"
-        "about"
-        "projects"
-        "contact";
-}
-
 .navbar {
     grid-area: nav;
     display: flex;
@@ -43,7 +33,7 @@ a:hover{
 }
 
 .home {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 23px;
     margin-right: auto;
     
@@ -63,22 +53,17 @@ a:hover{
     grid-area: about;
     display: flex;
     flex-wrap: wrap;
-    color: #4f4f4f;
+    color: #555555;
     font-size: 30px;
     letter-spacing: 2px;
     line-height: 50px;
-
     margin-top: 30px;
     
 }
 
-.resume a:hover{
-    color: #1976d2;
-}
 
 .projects {
     grid-area: projects;
-    
 }
 
 .projects h1{
@@ -90,43 +75,59 @@ a:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20px;
+    
 
 }
 
-.project{
-    background-color: #1976d2;
-    color: white;
-    padding: 20px 30px;
-    margin: 20px;
-    flex: 0 1 100%;
-
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-    transition: 0.3s;
-
+.project-card{
+    background-color: #fcfcfc;
+    color: #555555;
+    margin: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-left-style: solid;
+    border-color: #1976d2;
 }
 
-.project:hover {
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
-    transform: translate3d(0px, -3px, 0px);
+.project-card a{
+    font-weight: bold;
 }
 
 .contact {
     grid-area: contact;
 }
 
+.contact-container {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    -webkit-transition: color 0.5s;
+    -moz-transition:    color 0.5s;
+    -ms-transition:     color 0.5s;
+    -o-transition:      color 0.5s;
+    transition:         color 0.5s;
+}
+
+
+
 .contact h1{
     font-weight: normal;
 }
 
 
+
 @media (min-width: 800px) {
 
     .container{
-        margin: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
-    .navbar {
-        margin-top: 40px;
+
+    .about {
+        margin-left: 50px;
     }
     .about p{
         width: 750px;
@@ -146,12 +147,4 @@ a:hover{
         margin-right: auto;
     }
 
-    .project{
-        width: 600px;
-    }
-
-    .project{
-        margin: 0px;
-        flex: 0 1 45%;
-    }
 }
