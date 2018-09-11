@@ -1,0 +1,71 @@
+body {
+    background-color: #fdfdfd
+}
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "nav"
+        "about"
+        "projects"
+        "contact";
+}
+
+.navbar {
+    grid-area: nav;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0px;
+    list-style: none;
+}
+
+
+.navbar li{
+    margin-right: 20px;
+}
+
+.navbar li:first-child {
+    margin-right: auto;
+}
+
+.navbar a{
+    color: #4f4f4f;
+    padding: 20px;
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    -moz-transition:    color 0.5s;
+    -ms-transition:     color 0.5s;
+    -o-transition:      color 0.5s;
+    transition:         color 0.5s;
+}
+
+.navbar a:hover{
+    color: white;
+    background-color: #4f4f4f;
+}
+
+.about {
+    grid-area: about;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+
+@media (min-width: 700px) {
+    .navbar {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
