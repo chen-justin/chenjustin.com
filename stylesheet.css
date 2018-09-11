@@ -1,6 +1,31 @@
 body {
-    background-color: #fdfdfd
+    text-decoration: none;
+    background-color: #fcfcfc;
+    color: #555555;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+
+
 }
+
+a {
+    color: #555555;
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    -moz-transition:    color 0.5s;
+    -ms-transition:     color 0.5s;
+    -o-transition:      color 0.5s;
+    transition:         color 0.5s;
+}
+
+a:hover{
+    color:#1976d2;
+}
+
+.container{
+    margin: 20px;
+}
+
 .wrapper {
     display: grid;
     grid-gap: 20px;
@@ -13,59 +38,120 @@ body {
 
 .navbar {
     grid-area: nav;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-nav ul {
     display: flex;
     padding: 0px;
-    list-style: none;
 }
 
-
-.navbar li{
-    margin-right: 20px;
-}
-
-.navbar li:first-child {
+.home {
+    font-size: 25px;
+    margin-top: 23px;
     margin-right: auto;
+    
 }
 
-.navbar a{
-    color: #4f4f4f;
-    padding: 20px;
-    text-decoration: none;
-    -webkit-transition: color 0.5s;
-    -moz-transition:    color 0.5s;
-    -ms-transition:     color 0.5s;
-    -o-transition:      color 0.5s;
-    transition:         color 0.5s;
+.menu-container{
+    padding-top: 23px;
+    font-size: 20px;
 }
 
-.navbar a:hover{
-    color: white;
-    background-color: #4f4f4f;
+.menu-container a {
+    padding: 5px;
 }
+
 
 .about {
     grid-area: about;
-    margin-left: 20px;
-    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #4f4f4f;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+
+    margin-top: 30px;
+    
+}
+
+.resume a:hover{
+    color: #1976d2;
 }
 
 .projects {
     grid-area: projects;
+    
+}
+
+.projects h1{
+    font-weight: normal;
+    
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.project{
+    background-color: #1976d2;
+    color: white;
+    padding: 20px 30px;
+    margin: 20px;
+    flex: 0 1 100%;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    transition: 0.3s;
+
+}
+
+.project:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.5);
+    transform: translate3d(0px, -3px, 0px);
 }
 
 .contact {
     grid-area: contact;
 }
 
+.contact h1{
+    font-weight: normal;
+}
 
-@media (min-width: 700px) {
+
+@media (min-width: 800px) {
+
+    .container{
+        margin: 40px;
+    }
+
     .navbar {
-        margin-left: 75px;
-        margin-right: 75px;
+        margin-top: 40px;
+    }
+    .about p{
+        width: 750px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        font-size: 35px;
+    }
+
+
+}
+
+@media (min-width: 1400px) {
+
+    .container{
+        width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project{
+        width: 600px;
+    }
+
+    .project{
+        margin: 0px;
+        flex: 0 1 45%;
     }
 }
