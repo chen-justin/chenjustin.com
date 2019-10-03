@@ -31,33 +31,33 @@ const Site: React.FC = () => {
                 <div className="divider"/>
                 <div className="hero-links">
                   <div className="icon-wrapper">
-                    <button>
+                    <a href={"mailto:jnzheng8@gmail.com"} target={'_blank'}>
                       <FontAwesomeIcon icon={faEnvelope} className="icon"/>
-                    </button>
+                    </a>
                     <div className="icon-subtitle">
                       Email
                     </div>
                   </div>
                   <div className="icon-wrapper">
-                    <button>
+                    <a href={"https://github.com/chen-justin"} target={'_blank'}>
                       <FontAwesomeIcon icon={faGithub} className="icon"/>
-                    </button>
+                    </a>
                     <div className="icon-subtitle">
                       Github
                     </div>
                   </div>
                   <div className="icon-wrapper">
-                    <button>
+                    <a href={"https://www.linkedin.com/in/chen-justin/"} target={'_blank'}>
                       <FontAwesomeIcon icon={faLinkedinIn} className="icon"/>
-                    </button>
+                    </a>
                     <div className="icon-subtitle">
                       LinkedIn
                     </div>
                   </div>
                   <div className="icon-wrapper">
-                    <button>
+                    <a href={"./resume"} target={'_blank'}>
                       <FontAwesomeIcon icon={faFileAlt} className="icon"/>
-                    </button>
+                    </a>
                     <div className="icon-subtitle">
                       Resume
                     </div>
