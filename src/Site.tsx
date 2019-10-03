@@ -10,7 +10,7 @@ const Site: React.FC = () => {
     <div className="site-wrapper">
       <div className="site">
         <div className="title">
-          chenjustin
+          Justin Chen
         </div>
         <div className="site-content-wrapper">
           <header className="site-header">
@@ -24,7 +24,7 @@ const Site: React.FC = () => {
                       About Me
                     </div>
                     <div className="hero-content-text">
-                      <span className="hero-text-emph">I'm Justin Chen,</span> a software developer and student at the University of Maryland pursuing a major in Computer Science.
+                      I'm a software developer and student at the University of Maryland pursuing a major in Computer Science.
                     </div>
                   </div>
                 </div>

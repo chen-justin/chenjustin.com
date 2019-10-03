@@ -71,6 +71,7 @@
 .hero-title {
   font-weight: bold;
   margin-bottom: 1rem;
+  font-size: 1.3rem;
 }
 
 .hero-image {
@@ -84,14 +85,8 @@
   padding: 1rem;
 }
 
-.hero-content-text {
-  font-weight: normal;
-  opacity:   0.8
-}
-
 .hero-text-emph {
   font-weight: bold;
-  opacity: 1;
   font-size: 1.1rem;
 }
 
@@ -230,14 +225,14 @@
   }
 
   .site-header {
-    flex-basis: 20%;
+    flex-basis: 27%;
     margin-bottom: 0;
   }
 
   .site-body {
     display: flex;
     flex-direction: column;
-    flex-basis: 80%;
+    flex-basis: 73%;
   }
 
   .card-image {
