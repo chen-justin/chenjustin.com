@@ -1,0 +1,19 @@
+.ProjectAppRow {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ProjectAppRow-Icon-Container {
+  margin-right: 1rem;
+}
+
+.ProjectAppRow-Title {
+  font-size: 1.1rem;
+}
+
+.ProjectAppRow-Description {
+  color: rgba(130, 130, 130, 1);
+  font-size: 0.9rem;
+}

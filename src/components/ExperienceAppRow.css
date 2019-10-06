@@ -1,0 +1,19 @@
+.ExperienceAppRow {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ExperienceAppRow-Icon-Container {
+  margin-right: 1rem;
+}
+
+.ExperienceAppRow-Location {
+  font-size: 1.1rem;
+}
+
+.ExperienceAppRow-Role {
+  color: rgba(130, 130, 130, 1);
+  font-size: 0.9rem;
+}

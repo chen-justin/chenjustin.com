@@ -1,0 +1,57 @@
+{
+  "projects": [
+    {
+      "title": "umd.io",
+      "blurb": "An API created by UMD students.",
+      "description": "",
+      "tech": ["HTML", "CSS", "Ruby", "PostgreSQL"],
+      "iconurl": "assets/icons/umdio_icon.png",
+      "dark_icon": false,
+      "light_icon": false
+    },
+    {
+      "title": "2048 - iOS",
+      "blurb": "A take on the game 2048 on iOS.",
+      "description": "A take on the game 2048 on iOS. This version allows for generalized board sizes, like 2x2, 4x4, 5x5, and up to nxn.",
+      "tech": ["Swift", "iOS", "Mobile"],
+      "iconurl": "assets/icons/2048_icon.svg",
+      "dark_icon": false,
+      "light_icon": false
+    },
+    {
+      "title": "Spyfall",
+      "blurb": "A take on the table-top game Spyfall.",
+      "description": "A take on the table-top game of Spyfall. This version allows for custom locations to be entered and used",
+      "tech": [
+        "React",
+        "Typescript",
+        "Javascript",
+        "Heroku",
+        "socket.io",
+        "Node.JS",
+        "Express.JS"
+      ],
+      "iconurl": "assets/icons/spyfall_icon.png",
+      "dark_icon": true,
+      "light_icon": false
+    },
+    {
+      "title": "AsteriOS",
+      "blurb": "A 2D Space-Shooter game inspired by Asteroids.",
+      "description": "A modern take on Asteroids.",
+      "tech": ["Swift", "SpriteKit", "iOS", "Mobile"],
+      "iconurl": "assets/icons/asterios_icon.png",
+      "dark_icon": true,
+      "light_icon": false
+    },
+    {
+      "title": "2048 - JS",
+      "blurb": "A React, Javascript rendition of 2048.",
+      "description": "2048 but with React!",
+      "tech": ["Javascript", "React"],
+      "iconurl": "assets/icons/2048_icon.svg",
+      "dark_icon": false,
+      "light_icon": false
+    }
+  ]
+}

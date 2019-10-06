@@ -1,0 +1,13 @@
+{
+  "experiences": [
+    {
+      "role": "Software Engineering Intern",
+      "location": "Johns Hopkins Applied Physics Laboratory",
+      "duration": "Jun. 2019 - Aug. 2019",
+      "description": "",
+      "iconurl": "assets/icons/apl_icon.jpg",
+      "dark_icon": false,
+      "light_icon": true
+    }
+  ]
+}
