@@ -2,11 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 // import { faFileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {
-  faPaperPlane,
-  faFileAlt,
-  faEnvelope
-} from "@fortawesome/free-regular-svg-icons";
+import { faFileAlt, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import "./Site.css";
 import * as projectData from "./data/projects.json";
 import * as experienceData from "./data/experience.json";
