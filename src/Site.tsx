@@ -51,7 +51,11 @@ const Site: React.FC = () => {
                   <div className="icon-subtitle">LinkedIn</div>
                 </div>
                 <div className="icon-container">
-                  <a href={"./resume"} target={"_blank"}>
+                  <a
+                    href={require("./data/Justin_Chen_Resume.pdf")}
+                    download="Justin Chen Resume"
+                    target={"_blank"}
+                  >
                     <FontAwesomeIcon icon={faFileAlt} className="icon" />
                   </a>
                   <div className="icon-subtitle">Resume</div>
