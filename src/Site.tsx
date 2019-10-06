@@ -2,11 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 // import { faFileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {
-  faPaperPlane,
-  faFileAlt,
-  faEnvelope
-} from "@fortawesome/free-regular-svg-icons";
+import { faFileAlt, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import "./Site.css";
 import * as projectData from "./data/projects.json";
 import * as experienceData from "./data/experience.json";
@@ -55,7 +51,11 @@ const Site: React.FC = () => {
                   <div className="icon-subtitle">LinkedIn</div>
                 </div>
                 <div className="icon-container">
-                  <a href={"./resume"} target={"_blank"}>
+                  <a
+                    href={require("./data/Justin_Chen_Resume.pdf")}
+                    download="Justin Chen Resume"
+                    target={"_blank"}
+                  >
                     <FontAwesomeIcon icon={faFileAlt} className="icon" />
                   </a>
                   <div className="icon-subtitle">Resume</div>
